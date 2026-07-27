@@ -1,10 +1,10 @@
 class Ccswitch < Formula
   desc "Claude Code model configuration manager"
   homepage "https://github.com/pomeluce/ccswitch"
-  url "https://github.com/pomeluce/ccswitch/releases/download/v1.9.1/ccs_v1.9.1_darwin-arm64.tar.gz"
-  sha256 "e76d111b60b853621e1b0adb998b0eddae2dadf4190d3dd29f1178a9c376c726"
+  url "https://github.com/pomeluce/ccswitch/releases/download/v1.9.2/ccs_v1.9.2_darwin-arm64.tar.gz"
+  sha256 "c78e2648039e5be4fd55be1eb44abe26ce93cb0926bf1769638ccc47a6117e3d"
   license "GPL-3.0"
-  version "1.9.1"
+  version "1.9.2"
 
   def install
     bin.install "ccs"
