@@ -1,10 +1,10 @@
 class AkironMux < Formula
   desc "Unified Claude Code and Codex configuration manager"
   homepage "https://github.com/pomeluce/akiron-mux"
-  url "https://github.com/pomeluce/akiron-mux/releases/download/v1.14.2/AkironMux-1.14.2-macos-arm64-cli.tar.gz"
-  sha256 "84274be1bf54b8982375f974687b1805648898373c1bba34336b15296cc70dfa"
+  url "https://github.com/pomeluce/akiron-mux/releases/download/v1.14.3/AkironMux-1.14.3-macos-arm64-cli.tar.gz"
+  sha256 "3dbb05ef8325bf88a26f708f4d540d941e3ed453edbb896d4807cae1f73d9f85"
   license "GPL-3.0"
-  version "1.14.2"
+  version "1.14.3"
 
   def install
     bin.install "akmux"
